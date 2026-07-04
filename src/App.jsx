@@ -1,16 +1,12 @@
 import React from "react";
-import Accordian from "./components/Accordian/Accordian";
-import RandomColor from "./components/Random Color Generator/RandomColor";
-import StarRating from "./components/Star Rating/StarRating";
-import ImageSlider from "./components/Image Slider/ImageSlider";
+import Counter from "./components/Beginner Level/Counter";
+import ToggleButton from "./components/Beginner Level/ToggleButton";
 
 const App = () => {
   return (
     <div>
-      <Accordian />
-      <RandomColor />
-      <StarRating />
-      <ImageSlider />
+      <Counter />
+      <ToggleButton />
     </div>
   );
 };
